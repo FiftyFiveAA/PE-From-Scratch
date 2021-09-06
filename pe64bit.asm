@@ -1,7 +1,7 @@
 bits 64
 
 ; https://docs.microsoft.com/en-us/windows/win32/debug/pe-format#:~:text=The%20PE%20file%20header%20consists,followed%20immediately%20by%20section%20headers.
-; ./nasm -O0 -f bin -o fun.exe fun.asm
+; ./nasm -O0 -f bin -o pe64bit.exe pe64bit.asm
 
 ; This exe has 3 sections (.text, .data, .idata)
 ; file offsets(.text=0x400, .data=0x2400, .idata=0x3400)
